@@ -138,3 +138,22 @@ O relatório é gravado em `playwright-report/` (ignorado pelo Git).
 | **Total** | **14 casos** (CT-01 a CT-14) |
 
 Consulte `docs/execucao-dos-testes.md` para o detalhamento por cenário.
+
+
+## Utilização de Inteligência Artificial no Projeto
+
+Durante o desenvolvimento deste desafio técnico, utilizei ferramentas de Inteligência Artificial (IA) como apoio ao planejamento, à documentação e à estruturação dos testes de qualidade de software.
+
+A IA foi utilizada principalmente para:
+
+- **Planejamento de testes:** auxiliar na interpretação dos requisitos, organização do plano de testes e identificação de cenários positivos, negativos e de valores-limite.
+- **Elaboração de cenários:** apoiar a estruturação dos casos de teste, incluindo pré-condições, passos de execução, resultados esperados e cenários escritos em Gherkin.
+- **Documentação:** auxiliar na organização dos arquivos Markdown, padronização dos registros de execução e elaboração dos relatórios de defeitos.
+- **Automação:** apoiar a estruturação do projeto Playwright, a elaboração dos scripts e a definição das asserções com base nos critérios de aceite.
+- **Análise de resultados:** auxiliar na conferência dos cálculos e na comparação entre os resultados obtidos e os comportamentos esperados.
+
+A execução dos testes manuais, a investigação dos comportamentos da aplicação e a identificação de divergências foram conduzidas por mim, utilizando principalmente o Postman e a interface da Verzel Store.
+
+Um exemplo foi a identificação de uma inconsistência na validação do limite máximo de cinco unidades por produto, posteriormente documentada como BUG-001.
+
+**A Inteligência Artificial foi utilizada como ferramenta de suporte, e não como substituta da análise crítica e da tomada de decisão durante o processo de testes.** Os resultados foram avaliados com base na documentação oficial, nos critérios de aceite e nas evidências coletadas durante a execução.
