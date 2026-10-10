@@ -132,8 +132,9 @@ O relatório é gravado em `playwright-report/` (ignorado pelo Git).
 
 | Status | Quantidade |
 |--------|-----------|
-| Aprovado | 8 |
+| Aprovado | 13 |
 | Reprovado | 1 (BUG-001) |
-| Não executado | 4 (pendências manuais) |
+| Não executado | 0 |
+| **Total** | **14 casos** (CT-01 a CT-14) |
 
 Consulte `docs/execucao-dos-testes.md` para o detalhamento por cenário.
