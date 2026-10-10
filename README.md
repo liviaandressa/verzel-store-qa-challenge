@@ -42,8 +42,8 @@ verzel-store-qa-challenge/
 ├── bugs/
 │   └── BUG-001-limite-quantidade.md   # Defeito do limite de 5 unidades (CA10)
 ├── evidencias/
-│   ├── api/                      # Evidências de API (a anexar)
-│   ├── interface/                # Evidências de interface (a anexar)
+│   ├── api/                      # Evidências de API 
+│   ├── interface/                # Evidências de interface 
 │   └── indice-evidencias.md      # Catálogo de evidências
 ├── postman/
 │   └── README.md                 # Como exportar/armazenar a coleção
