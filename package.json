@@ -1,0 +1,29 @@
+{
+  "name": "verzel-store-qa-challenge",
+  "version": "1.0.0",
+  "description": "Automação de testes de API da Verzel Store (história VZS-142) com Playwright e TypeScript.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:cupom": "playwright test tests/cupom.spec.ts",
+    "test:frete": "playwright test tests/frete.spec.ts",
+    "test:carrinho": "playwright test tests/carrinho.spec.ts",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "qa",
+    "playwright",
+    "api-testing",
+    "typescript",
+    "verzel"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.0",
+    "typescript": "^5.6.0"
+  }
+}
